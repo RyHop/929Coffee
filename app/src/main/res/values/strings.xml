@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">929 Coffee</string>
-    <string name="description">You love coffee. We love coffee. Let\'s get together.Fresh pastries daily &amp; lunch 11am-2pm Mon-Fri. Catering &amp; event rental options upon request. </string>
+    <string name="headline">You love coffee. We love coffee. Let\'s get together.</string>
+    <string name="introDes">Need us? Call or Come find us.</string>
+    <string name="twitter">Twitter: @929_coffee</string>
+    <string name="Instagram">Instagram: @929_coffee</string>
+    <string name="facebook">FB: @929cafe</string>
+    <string name="email">929coffee@gmail.com</string>
+    <string name="website">Web: 929coffee.com</string>
+    <string name="hours">Hours: Mon-Sat: 7 AM - 9 PM | Sun: 9 AM - 6 PM</string>
+    <string name="summerHours">Summer Hours: Mon-Sat: 7 AM - 6 PM | Sun: 9 AM - 6 PM</string>
+    <string name="phoneNumber">Cell: 6622688014</string>
+    <string name="address">Address: 106 E. Main Street | Starkville, MS 39768</string>
+    <string name="description">Fresh pastries daily &amp; lunch 11am-2pm Mon-Fri. Catering &amp; event rental options upon request. </string>
 </resources>

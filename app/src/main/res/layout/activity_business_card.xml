@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-
         tools:context=".BusinessCardActivity">
 
 
@@ -19,6 +18,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/nine2ninescript"/>
+        <TextView
+            android:background="@color/colorPrimaryDark"
+
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/headline"
+            android:textColor="@color/colorAccent"
+
+            />
+
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -27,10 +37,20 @@
 
             <TextView
                 android:id="@+id/description"
-                android:layout_width="wrap_content"
+                android:layout_width="200dp"
+                android:textSize="20sp"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorAccent"
                 android:text="@string/description"
+
+
+                />
+            <ImageView
+                android:layout_toRightOf="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="210dp"
+                android:src="@drawable/latte_art"
+                android:scaleType="centerCrop"
                 />
 
         </RelativeLayout>
@@ -41,9 +61,59 @@
             android:background="@color/colorPrimaryDark">
 
             <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/intro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="hello"/>
+                android:text="@string/introDes"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/intro"
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/address"
+                android:id="@+id/Number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phoneNumber"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/Number"
+                android:id="@+id/website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/website"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/website"
+                android:id="@+id/hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hours"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/hours"
+                android:id="@+id/summerhours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/summerHours"
+                android:textColor="@color/colorAccent"
+                />
+
 
         </RelativeLayout>
 
