@@ -39,9 +39,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="2"
-           >
-
+            android:layout_weight="2">
 
 
             <ImageView
@@ -49,6 +47,40 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/latte_art" />
+
+            <TextView
+                android:id="@+id/Description1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="55dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/descriptionPart2"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/descriptionPart1"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="21dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/descriptionPart3"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
 
         </RelativeLayout>
 
@@ -63,8 +95,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
                 android:text="@string/introDes"
-                android:textColor="@color/colorAccent" />
+                android:textColor="@color/colorAccent"
+
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/address"
@@ -72,8 +108,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/intro"
                 android:layout_centerHorizontal="true"
+                android:padding="5dp"
                 android:text="@string/address"
-                android:textColor="@color/colorAccent" />
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/Number"
@@ -81,8 +119,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/address"
                 android:layout_centerHorizontal="true"
+                android:padding="5dp"
                 android:text="@string/phoneNumber"
-                android:textColor="@color/colorAccent" />
+                android:textColor="@color/colorAccent"
+
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/website"
@@ -90,8 +131,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/Number"
                 android:layout_centerHorizontal="true"
+                android:padding="5dp"
                 android:text="@string/website"
-                android:textColor="@color/colorAccent" />
+                android:textColor="@color/colorAccent"
+
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/hours"
@@ -99,8 +143,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/website"
                 android:layout_centerHorizontal="true"
+                android:padding="5dp"
                 android:text="@string/hours"
-                android:textColor="@color/colorAccent" />
+                android:textColor="@color/colorAccent"
+
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/summerhours"
@@ -108,8 +155,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/hours"
                 android:layout_centerHorizontal="true"
+                android:padding="5dp"
                 android:text="@string/summerHours"
-                android:textColor="@color/colorAccent" />
+
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
 
 
         </RelativeLayout>
