@@ -12,4 +12,7 @@
     <string name="phoneNumber">Cell: 6622688014</string>
     <string name="address">Address: 106 E. Main Street | Starkville, MS 39768</string>
     <string name="description">Fresh pastries daily &amp; lunch 11am-2pm Mon-Fri. Catering &amp; event rental options upon request. </string>
+    <string name="descriptionPart1">Fresh pastries daily</string>
+    <string name="descriptionPart2">Lunch 11 AM - 2 PM Mon-Fri.</string>
+    <string name="descriptionPart3">Catering &amp; event rental options upon request.</string>
 </resources>
